@@ -199,11 +199,11 @@ You'll have to see it for yourself. --Morpheus")
 
    ;; package
    `(package-name ((t (:weight bold))))
-   `(package-description ((t (:inherit fixed-pitch-serif))))
+   `(package-description ((t (:inherit font-lock-doc-face))))
    `(package-status-available ((t (:slant italic))))
    `(package-status-installed ((t (:foreground ,color-blue :slant italic))))
    `(package-status-dependency ((t (:foreground ,color-dark :slant italic))))
-   `(package-status-built-in ((t (:foreground ,color-dark :slant italic))))
+   `(package-status-built-in ((t (:foreground ,color-darker :slant italic))))
    `(package-status-incompat ((t (:slant italic :inherit font-lock-warning-face))))
 
    ;; customization
